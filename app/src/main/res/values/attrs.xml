@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyStateButton">
+        <attr name="defaultImage" format="reference"/>
+        <attr name="pressImage" format="reference"/>
+        <attr name="text" format="string"/>
+        <attr name="defaultTextColor" format="color"/>
+        <attr name="pressTextColor" format="color"/>
+        <attr name="defaultBorderColor" format="color"/>
+        <attr name="pressBorderColor" format="color"/>
+        <attr name="cornerRadius" format="float"/>
+        <attr name="borderWidth" format="integer"/>
+    </declare-styleable>
+</resources>

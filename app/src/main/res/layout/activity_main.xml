@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    tools:context="com.yuyigufen.mystatebutton.MainActivity">
+
+    <com.yuyigufen.mystatebutton.MyStateButton
+        android:layout_width="50dp"
+        app:defaultImage="@mipmap/other"
+        android:id="@+id/mybt"
+        app:text="按钮1"
+        app:defaultBorderColor="@color/colorPrimaryDark"
+        app:pressBorderColor="@color/colorAccent"
+        app:defaultTextColor="@color/colorPrimaryDark"
+        app:pressTextColor="@color/colorAccent"
+        app:borderWidth="3"
+        app:pressImage="@mipmap/other_press"
+        android:layout_height="50dp">
+
+    </com.yuyigufen.mystatebutton.MyStateButton>
+    <com.yuyigufen.mystatebutton.MyStateButton
+        android:layout_width="70dp"
+        app:defaultImage="@mipmap/other"
+        android:id="@+id/mybt2"
+        app:text="按钮2"
+        app:borderWidth="6"
+        android:layout_marginTop="20dp"
+        app:defaultBorderColor="#0CF743"
+        app:pressBorderColor="#07FCF0"
+        app:defaultTextColor="#0CF743"
+        app:pressTextColor="#07FCF0"
+        app:pressImage="@mipmap/other_press"
+        android:layout_height="70dp">
+
+    </com.yuyigufen.mystatebutton.MyStateButton>
+    <com.yuyigufen.mystatebutton.MyStateButton
+        android:layout_width="100dp"
+        app:defaultImage="@mipmap/other"
+        android:id="@+id/mybt3"
+        app:text="按钮3"
+        app:borderWidth="9"
+        android:layout_marginTop="20dp"
+        app:defaultBorderColor="#f00"
+        app:pressBorderColor="#ff0"
+        app:defaultTextColor="#f00"
+        app:pressTextColor="#ff0"
+        app:pressImage="@mipmap/other_press"
+        android:layout_height="100dp">
+
+    </com.yuyigufen.mystatebutton.MyStateButton>
+
+</LinearLayout>
